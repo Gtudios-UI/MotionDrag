@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MotionDrag", "MotionDrag\MotionDrag.shproj", "{BCF44033-F976-4673-AF5D-545F2C0E83F0}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80E4D0F1-64F3-48AC-945E-826CBEBF46C9}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MotionDrag\MotionDrag.projitems*{bcf44033-f976-4673-af5d-545f2c0e83f0}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
