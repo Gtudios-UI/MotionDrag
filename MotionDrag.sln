@@ -5,7 +5,65 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MotionDrag", "MotionDrag\MotionDrag.shproj", "{BCF44033-F976-4673-AF5D-545F2C0E83F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionDrag.UWP", "MotionDrag.UWP\MotionDrag.UWP.csproj", "{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionDrag.WASDK", "MotionDrag.WASDK\MotionDrag.WASDK.csproj", "{56F986AB-0CDE-4E2D-942E-F91712B36FFA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|ARM.Build.0 = Debug|ARM
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|ARM64.Build.0 = Debug|ARM64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|x64.ActiveCfg = Debug|x64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|x64.Build.0 = Debug|x64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|x86.ActiveCfg = Debug|x86
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Debug|x86.Build.0 = Debug|x86
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|ARM.ActiveCfg = Release|ARM
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|ARM.Build.0 = Release|ARM
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|ARM64.ActiveCfg = Release|ARM64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|ARM64.Build.0 = Release|ARM64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|x64.ActiveCfg = Release|x64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|x64.Build.0 = Release|x64
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|x86.ActiveCfg = Release|x86
+		{BAFD130D-1CE6-487D-BCB6-9C4B15081A80}.Release|x86.Build.0 = Release|x86
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|ARM.Build.0 = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|x64.Build.0 = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Debug|x86.Build.0 = Debug|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|ARM.Build.0 = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|ARM64.Build.0 = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|x64.ActiveCfg = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|x64.Build.0 = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|x86.ActiveCfg = Release|Any CPU
+		{56F986AB-0CDE-4E2D-942E-F91712B36FFA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -13,6 +71,8 @@ Global
 		SolutionGuid = {80E4D0F1-64F3-48AC-945E-826CBEBF46C9}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MotionDrag\MotionDrag.projitems*{56f986ab-0cde-4e2d-942e-f91712b36ffa}*SharedItemsImports = 5
+		MotionDrag\MotionDrag.projitems*{bafd130d-1ce6-487d-bcb6-9c4b15081a80}*SharedItemsImports = 4
 		MotionDrag\MotionDrag.projitems*{bcf44033-f976-4673-af5d-545f2c0e83f0}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

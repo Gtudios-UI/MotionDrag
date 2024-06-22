@@ -9,5 +9,6 @@
     <Import_RootNamespace>MotionDrag</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GlobalUsings.Shared.cs" />
   </ItemGroup>
 </Project>
