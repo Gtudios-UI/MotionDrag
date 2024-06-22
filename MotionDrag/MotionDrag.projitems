@@ -10,5 +10,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)GlobalUsings.Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\DragPosition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\DropManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\DropManagerDeferral.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\GlobalContainerRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\IMotionDragConnectionReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\MotionDragConnectionContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\MotionDragConnectionEventDelegates.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MotionDrag\Multiprocessing\MotionDragMultiprocessingCommunicator.cs" />
   </ItemGroup>
 </Project>
