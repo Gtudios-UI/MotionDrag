@@ -5,7 +5,7 @@ public class DropManager
     public bool ShouldItemBeRemovedFromHost { get; set; } = false;
     DropManagerDeferral? deferral;
     public DropManagerDeferral GetDeferral() => deferral ??= new();
-    internal Task WaitForDeferralAsync()
+    public Task WaitForDeferralAsync()
     {
         if (deferral is not null)
             return deferral.WaitAsync();

@@ -87,6 +87,11 @@ public class MotionDragConnectionContext<TItem>
         => reference.Add(receiver);
     public static void UnsafeRemove(MotionDragConnectionContext<TItem> reference, IMotionDragConnectionReceiver<TItem> receiver)
         => reference.Remove(receiver);
-    public static void UnsafeSendDragEvent() { }
+    public static void UnsafeSendDragEvent(MotionDragConnectionContext<TItem> reference, object? sender, TItem item, int senderIndex, DragPosition dragPosition, ref Vector3 itemOffset)
+        => reference.DragEvent(sender, item, senderIndex, dragPosition, ref itemOffset);
+    public static void UnsafeSendDropEvent(MotionDragConnectionContext<TItem> reference, object? sender, TItem item, int senderIndex, DragPosition dragPosition, DropManager dropManager)
+        => reference.DropEvent(sender, item, senderIndex, dragPosition, dropManager);
+    public static void UnsafeSendCancelDragEvent(MotionDragConnectionContext<TItem> reference, object? sender, TItem item, int senderIndex)
+        => reference.CancelDragEvent(sender, item, senderIndex);
 }
 public class MotionDragConnectionContext : MotionDragConnectionContext<object?> { }
